@@ -1,5 +1,5 @@
 import {HStack, Image} from "@chakra-ui/react";
-import logo from "../assets/logo/logo.webp"
+import logo from "../assets/Logo/logo.webp"
 import ColorModeSwitch from "./ColorModeSwitch.tsx";
 import SearchInput from "./SearchInput.tsx";
 
