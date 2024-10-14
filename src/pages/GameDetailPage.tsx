@@ -1,6 +1,7 @@
 import { useParams } from "react-router-dom";
 import useGame from "../hooks/useGame";
 import { Heading, Spinner, Text } from "@chakra-ui/react";
+import ExpandebleText from "../components/ExpandebleText";
 
 const GameDetailPage = () => {
   const { slug } = useParams();
@@ -11,7 +12,7 @@ const GameDetailPage = () => {
   return (
     <>
       <Heading>{game.name}</Heading>
-      <Text>{game.description_raw}</Text>
+      <ExpandebleText>{game.description_raw}</ExpandebleText>
     </>
   );
 };
